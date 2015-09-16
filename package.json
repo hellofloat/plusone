@@ -1,7 +1,7 @@
 {
   "name": "plusone",
   "version": "0.0.1",
-  "description": "A function to increment a value that treats null as 0, useful for sparse hashes.",
+  "description": "A function to increment a value that treats undefined as 0, useful for hash tables of counts.",
   "main": "index.js",
   "scripts": {
     "test": "tape test/**/*.js | tap-spec"
