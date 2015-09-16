@@ -1,6 +1,6 @@
 {
   "name": "plusone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A function to increment a value that treats undefined as 0, useful for hash tables of counts.",
   "main": "index.js",
   "scripts": {

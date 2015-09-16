@@ -42,3 +42,9 @@ test( 'does not increment an array', function( t ) {
     t.deepEqual( plusone( [ 1, 2, 3 ] ), [ 1, 2, 3 ] );
     t.end();
 } );
+
+test( 'does not increment a string', function( t ) {
+    t.equal( plusone( '' ), '' );
+    t.equal( plusone( '1' ), '1' );
+    t.end();
+} );
