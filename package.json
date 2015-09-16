@@ -11,7 +11,8 @@
     "url": "git+https://github.com/hellofloat/plusone.git"
   },
   "keywords": [
-    "increment"
+    "increment",
+    "count"
   ],
   "contributors": [
     {
