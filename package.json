@@ -1,0 +1,32 @@
+{
+  "name": "plusone",
+  "version": "0.0.1",
+  "description": "A function to increment a value that treats null as 0, useful for sparse hashes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellofloat/plusone.git"
+  },
+  "keywords": [
+    "increment"
+  ],
+  "contributors": [
+    {
+      "name": "Andy Burke",
+      "email": "aburke@bitflood.org",
+      "url": "https://github.com/andyburke"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellofloat/plusone/issues"
+  },
+  "homepage": "https://github.com/hellofloat/plusone#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  }
+}
