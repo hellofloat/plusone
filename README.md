@@ -20,7 +20,7 @@ obj.foo = obj.foo + 1;
 obj.bar = obj.bar ? obj.bar + 1 : 1;
 
 // this works as expected, but is long and not that readable
-obj.baz = typeof obj.baz === 'undefined' ? obj.baz + 1 : 1;
+obj.baz = typeof obj.baz !== 'undefined' ? obj.baz + 1 : 1;
 
 // this works as we expect, and reads pretty nicely, see? :)
 obj.count = plusone( obj.count );
@@ -56,6 +56,10 @@ Pull requests are very welcome! Just make sure your code:
 3) Has tests and passes them.
 
 # CHANGELOG
+
+0.0.3
+------
+- REAME example fixed
 
 0.0.2
 ------
